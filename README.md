@@ -1,0 +1,2 @@
+- Spectrele din fisierele .IEC trebuie copiate intr-un fisier .txt cu acelasi nume.
+- Prima coloana (care este tip string) din fisierul .txt trebuie stearsa cu "Find and replace".
