@@ -2,7 +2,9 @@
     TGraph *gr1 = new TGraph();
     ifstream ifile;
     ofstream ofile;
-    double a, b, c, d, e, f;  // a = nr. primului canal al liniei curente de date
+    unsigned int a;  // a = canalul de energie (coloana a doua, dupa coloana de tip string)
+    float b, c, d, f, f;
+    string s;  // s = prima coloana (de tip string)
     std::vector<double> counts;
     string filename;
     bool exist = false;
@@ -17,7 +19,7 @@
     if(ifile) { exist = true; }
     while(true && ifile)
     {
-        ifile >> a >> b >> c >> d >> e >> f;
+        ifile >> s >> a >> b >> c >> d >> e >> f;
         if(ifile.eof()) break;
         counts.push_back(b);
         counts.push_back(c);
