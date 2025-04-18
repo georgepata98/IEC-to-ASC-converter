@@ -5,7 +5,7 @@
     unsigned int a;  // a = canalul de energie (coloana a doua, dupa coloana de tip string)
     float b, c, d, f, f;
     string s;  // s = prima coloana (de tip string)
-    std::vector<double> counts;
+    std::vector<float> counts;
     string filename;
     bool exist = false;
 
