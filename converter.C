@@ -3,7 +3,7 @@
     ifstream ifile;
     ofstream ofile;
     unsigned int a;  // a = canalul de energie (coloana a doua, dupa coloana de tip string)
-    float b, c, d, f, f;
+    float b, c, d, e, f;
     string s;  // s = prima coloana (de tip string)
     std::vector<float> counts;
     string filename;
