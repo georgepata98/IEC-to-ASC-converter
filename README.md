@@ -1,2 +1,1 @@
-- Spectrele din fisierele .IEC trebuie copiate intr-un fisier .txt cu acelasi nume.
-- Prima coloana (care este de tip string) din fisierul .txt trebuie stearsa cu "Find and replace".
+- Se copiaza liniile din fisierul .IEC care contin datele de spectru (prima coloana e string, a doua e nr. canalului, iar urmatoarele sunt nr. de counturi in 5 canale) si se adauga intr-un fisier .txt.
